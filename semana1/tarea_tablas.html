@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de Ajedrez</title>
+</head>
+<body>
+    <h2>Talero de ajedrez</h2>
+    <table border="0" bgcolor=#000>
+        <thead>
+            <tr>
+                <th width="60" height="60"></th>
+                <th width="60" bgcolor=#fff></th>
+                <th width="60" height="60"></th>
+                <th width="60" bgcolor=#fff></th>
+                <th width="60" height="60"></th>
+                <th width="60" bgcolor=#fff></th>
+                <th width="60" height="60"></th>
+                <th width="60" bgcolor=#fff></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+            </tr>
+            <tr>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>           
+            </tr>
+            <tr>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+            </tr>
+            <tr>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+            <tr>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+            <tr>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>    
+            <tr>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+                <td width="60" height="60" bgcolor="#fff"></td>
+                <td width="60" height="60"></td>
+  
+    <p><h2>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA6lBMVEX///8AAAD+mQDS0tL5+fkpKSn8///g4ODDw8Pc3NzPz8+Ghoa0tLSrq6tEREReXl52dnb9lAB+fn6+vr7n5+cgICCfn5/v7+/7kQDz8/MuLi5TU1PBwcHZ2dkZGRn///w4ODgMDAyTk5NMTExtbW0cHBxkZGQ9PT2ZmZmPj4//kQD6yYdYWFj//vb3lAD6nQD6q0P69uL847r705j9wHj85sn42Zb9wW767Mr2q0j84LT/7dn6mCn/99n1wn72zo33pjP4qlDytlj93av8u2v65bf+/u3zoh//37j7qET6tF36niD4qkj6058gvUPzAAAIyklEQVR4nO2ZC1fiOhDHWx5FXquFIgUWKw9fYHmJK+oF2cXt7srd7/91bpJm0gSqC9I9cs+Zn3oObegk/8xkMo2ahiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiDIR1FJxePpys5mrHqmbkUwnIhJFNslnVEtZKT7mRwhnyKf0tnTRqNaqPv3K/nrkl46zCdUM9Zxzbeit45llcX8GtJU1putkt6otnNl6ZFUnnZNx5LI1870s9rxTpOfr+oStbro279R0rRLaGzS+5/5dOjVA1lfQbaiZ4X8jL5OVvRxLu41muKRBB9RSquf8tYTua/tSByudl/kLXFuW2sGbURiLuSrREdyxcon8MlBiMICTK76SArGxI2lrJOg9b0SE631/tOKwqTihHhKvmpANIY4qvaGwmyYQBIuKVWhVZMak3IYb0FBX6elKKzK3ejX7bChVhohZvKvKyy80lKtKAqPlcbjdwmsixk6KlwLW3VZ4Zuc+mau4LpVKFyIz68rZIMtw/pvtD6p0rnChhr5tdXBb0SWP92kkxdv8Kv8xgp1FjoVPpQTlv0ulTYt0SxwjqChxHIKfO+chHoaMkpaUujbDD6+J59C0uIrH5LIlaowWSyXpSVzHrfqIlZTspv4VgPBUF/pTawI9r0KT8kXTC4s7yNV4XlKs0Rf79loEyfSOEnGl7sJFLKRColt1ghxxZ4s+p95WArnrGQ/kYSvlEu+XLmOk7KskAVmAvqKv0OhZhXzV0c1SN7lkzCFh+yqAuNLKyr8uYnnjrPtFuwdMBmqQpg+vZWQJcHswkNFWaEfFM1Qe++ichamkOcw3mvVHx94IBViJhc6IpHI+GZUUuyJ/SYrKTzx2z5HojBRTmeKzUaYQu4aHistVcWKwopVP8i3w0Yk8g+PSnApZEi4bkkKrzVlIDuUNZnL84uGHqAqPFAU8l6L6wqtYramFIDyiMSiPuQ3wGfn/LrM4yeZCBT649DSOyqsXJ7qK7ylkI9wzYf1o5NVM9KIErBLnkFChCkSCmHtlQOF2UgUZkr6Gu9Q2Fy3Io8I9t2gkgUDRzDRMM+piBVKdfRJ9VTpdRuFUi1XOk2qD2pSXVMQtyB3tlcV1qNVKKq26mXcSlihu8UGCoUHD3P18vpuIeqzZPBKCQYgSv+WD+HN4ohVROH74Z8VinnKKW1iRKJck96vwa2QecQsWJEqhITGU/Z7FUI5xjeCVR+KldCUugbrUAiVeT4oJSJVCAmAr//wqu2PCit8+pO8ND5WHxTFzKEmUeY3TzX1W/J+GIFCCFKewiHa2tsphMdAAbj0s38pipl28zKXEeUznxZ4iQ6raSJQCFmP9wJ1R207hbCkeNIQe58ftOprrN64aKaUeeDm4WtyXRqBQtgL/aod3jT4vG6t8JOfKWEv979aXisESAN9Cpx2pJhnkR6hQsjQ/jYVnGhkt1IoKjKWKq2gcotrr7xHs9IMXK28nLGeI1QoNurLciItn8AcbKNQuCmZSVQOpNL0ohJ+iOE/BqKSB2VLhHI5YoXBm/vKmQjN2ZvvFsEJT+lMMXP1lsLgmK8h7vtvahEqXD0ja4A3aDbdXGFOtaKLUjf3lkIttXYbclWENc3KiWUxJ5neompTT5UvrMPgSaawcUj2iXSqnsld1aTHVtVfV6JXGJwD6v5RGSuw/DQPyY5vaxdvKKzIL2DnFc2iXkymuZVaUT7MtfIXYnvKKEF9BFVrohSq8PO7FGoHMLjSFeugLSxBEPEDIP4fBp7cQT4fe+IK4vuC1UeppN7ih4l58rxjGI5jkB9yg/wdiHeoSrYB+j5JLuLxws9PLHUg25M5LhSyxxk4jcyloSGVocBlhV1lYJ7r7Cp4xS8Xr4iZPJwgWtJ/phyXqKIaNYMJdOTey7nCYa3WvlSGX2bGxS11IHuJMxzddMfj8ezmdmi47kcPh0DmmkSU8+cvbmRseDOI2R3TJL9mp981ojG7G7eDLy4NLG1nla4xvLM7vVhAbxjJEHdkYtv3D3TF7OxG4/Ef2zZ7hGWvZzOF0yhGuDOjnml+HUVgyJjOnha3k+mQMHlaEoX94T6EqaFN5x2zd//TJZHq0L/dzDnUCrFz04nFfuxDoiGCDO/Zjpn2YDEkWX63YKUGaOIiEn8Smy/OPvjQcVzNe6L5oTN/GhJH7rgenend199E42871rnR9kEhGQQJzdG8QzXGvi1cQ6Oxtd3sG9z3hvflmxnr/eMZ2l0n1rs1ds9f0UAWjjfuxPp9EqzL5++uQxeTX59sAvU7mSXDe3jukc0w1nsyNG9umnPP2TUiooIlmO9LMjia4u0fs4epa2zuRfq4O108L22TztL8J7memDG7u4WNv4zDciBZjUxijNQjva/d0capnhRq3Rcuz7THHnUpTaWPxn6swwBj+s00+0QhV3k/W0w8F+odw2CplmdLv9zTHO9x0R0sTd/9sZg9YDur4X2NmXcfLCcEx3AnL8wT4Erb7v167i5Gj57n0mXpu4R8cl1vePtwczdYkjLGJM/4D8xpoqLzMemZy73Y7tcw3NGL3eFlZZ/9mVTBcj749jyedSmz8fjlfr4kAUlbgiLU/rVwNT4Js4692LcQ1VhKpRond72OPHThUYWgpU9/7d7ggWUnljy9pT3blzQagmFMfw9M6kiI1z/RsZfjieyxhX3nRfVG9heg26B7Ox70zHVPrkESUm85G3mGISt8JPHq7EVRGgrdvGm1OuneL98WSVJRf9AdeexcRnIZ3SUie6v+q9CN7v6HaXdWZPbpQrR7/Zfuw3B/PbURJPYMbzq6Gb/8mi+XfZZvYrHl8t+X2e/Roy/u/+CqV3HYaRlbYY47HD5OJreTW/KG67KK1XAdI4rTj4+GKaR1jJJKfNnG/u14CIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgyAfxHyxludIUlEDIAAAAAElFTkSuQmCC"
+        />
+    </h2>    
+    </p>    
+        
+      </tbody>
+    </table>
+</body>
+</html>
