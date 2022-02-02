@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica;
+  }
+  .foto-propia {
+    border-radius: 30%;
+    border: 2px solid #000;
+  }
+
+  .presentacion {
+    text-align: center;
+    font-family: lucida sans;
+  }
+
+  .imagen-carpeta:hover {
+    width: 55;
+  }
+
+  .link-referencia {
+    background-color: rgb(240, 199, 16);
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .link-referencia:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  .contenedor-principal {
+    text-align: center;
+  }
+
+  .link-referencia2 {
+    background-color: rgb(95, 197, 104);
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .link-referencia2:hover {
+    text-decoration: underline;
+    color: #fff;
+  }

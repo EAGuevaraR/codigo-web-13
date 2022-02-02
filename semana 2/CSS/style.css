@@ -1,0 +1,107 @@
+body {font-family: Helvetica;}
+h1{color: red}
+h2{color:blue}
+h3{color:orange; background-color:aqua}
+a {color:rgb(255, 192, 203); background-color:green}
+/*La forma correcta en la cual usamos un id en css en con #*/
+#cont_1 {background-color: brown;}
+#cont_2 {background-color: yellow;}
+#cont_3 {background-color: blueviolet;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+/*Para compartir estilos debemos usar clases "class" */
+.contenedor-principal {background-color: violet; padding: 20px;}
+
+.btn-ingresar{
+            background-color: rgb(27, 29, 133); 
+            color: #fff;
+            padding: 10px;
+            border-radius: 8px; 
+            border: none;}
+/*para compartir estilos se pone en la clase del button las dos clases*/
+.btn_registro{
+            font-family: cursive;}
+
+/*un id se usa sólo para elementos especiales,
+lo mejor y mas comun es usar clases*/
+
+.contenedor-form {
+    border: 3px solid rgb(182, 123, 46);
+    border-radius: 8px;
+}
+
+.contenedor-interno-form {
+    padding: 20px;
+    /*para alinear elemnetos */
+    text-align: center;
+}
+.titulo-form {
+    color: wheat;
+    background-color: #fff;
+}
+
+.input-form {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+    }
+
+.input-codigo {
+    width: 100px;
+}
+
+.input-numero {
+    width: 275px;
+}
+
+.input-button {
+    padding: 16px;
+    border-radius: 10px;
+    border: 3px;
+    width: 120px;
+    background-color: seagreen;
+}
+
+/*pseudoclases*/
+/*Los elementos tienen propiedades
+internas, por ejemplo hover*/
+/*hover: detecta cuando el mouse esta
+sobre el elemento, es decir estos estilos
+se aplciarán solo si el mouse esta 
+encima*/
+
+.btn-ingresar:hover {
+    background-color: #f01;
+    color: #000;
+    /*quitar el subrayado*/
+    text-decoration: none;
+}
+/*los elementos como el a tienen pseudo
+clases como link, visited, hover, active*/
+/*Estas pseudoclases aplican para todos
+los elementos de html*/
+
+div:hover {
+    background-color: #f01
+}
+
+.contenedor-interno-form h1 {
+    border: 2px solid #000;
+}
+
+.contenedor-interno-form {
+    border: 2px solid #f01;
+}
+/*first-child aplica el aspecto al primer
+elemento de varios p o h1 h2 etc*/
+
+/*first-of-type aplica el formato al 
+primero de su tipo*/
+input:first-of-type {
+    color: #f01
+}
+
+h3:nth-child(0) {
+    color: #000;
+}
