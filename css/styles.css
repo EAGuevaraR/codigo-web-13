@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: Helvetica;
   }
@@ -21,6 +26,7 @@ body {
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+    margin: 20px;
   }
   
   .link-referencia:hover {
@@ -29,6 +35,7 @@ body {
   }
   .contenedor-principal {
     text-align: center;
+    height: 100vh;
   }
 
   .link-referencia2 {
@@ -37,9 +44,46 @@ body {
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+    margin: 20px;
   }
   
   .link-referencia2:hover {
     text-decoration: underline;
     color: #fff;
+  }
+
+  .imgprog {
+    border-radius: 12px;
+    margin-top: 40px;
+
+  }
+  .contenedor-clases {
+    height: 100vh;
+    background-color: #d8db2c;
+  }
+
+  .lista-semanas {
+    margin: 40px;
+    padding: 40px;
+    list-style: none; /*quita los puntos a la lista*/
+  }
+   
+  .lista-semanas li {
+    padding: 20px;
+  }
+  
+  h3 {
+    font-size: 2em;
+    margin: 20px;
+  }
+  h5 {
+    margin: 20px;
+  }
+
+  .divisor {
+    margin: 20px;
+    height: 4px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
   }

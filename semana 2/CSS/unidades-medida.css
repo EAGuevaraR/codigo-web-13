@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+.banner {
+    background-color: rgb(28, 16, 134);
+    height: 20vh; /*view port height, pinta el porcentaje de la vista que se tiene*/
+    width: 50%; /*en caso de ancho mejor usar porcentaje en vez de vw*/
+}
+.banner2 {
+    background-color: rgb(211, 194, 43);
+    height: 40vh;
+    width: 70%;
+}
+
+.banner3 {
+    background-color: indianred;
+    height: 40vh;
+    width: 80%;
+}
+.banner4 {
+    background-color: indigo;
+    height: 200vh;
+    width: 100%;
+}
+.banner5 {
+    background-color: lavender;
+    height: 40vh;
+    min-width: 50%;/*el tamaño mínimo del banner será el 50% de la pantalla, para que se 
+    adapte solo si cambia el tamaño de la pantalla*/
+    max-width: 80%;    
+}
+.banner6 {
+    width: 200px;
+    height: 200px;
+    border: 12px solid #f01;
+}
+
+.titulo {
+    font-size: 3em;/*em es para multiplicar el tamaño de la letra*/
+    color: crimson;
+}
+.parrafo {
+    font-size: 50px;
+}

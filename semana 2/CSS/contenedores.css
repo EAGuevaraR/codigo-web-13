@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+}
+.contenedor1 {
+    height: 30vh;
+    background-color: hsl(180, 70%, 20%);
+}
+
+.contenedor-form {
+    border: 3px solid black;
+    height: 100vh;
+    background-color: rgb(232, 232, 232);
+}
+
+input {
+    display: block; /*convierte elementos inline a tipo bloque*/
+    margin: 10px;
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+.article1 {
+    background-color: rgba(123, 234, 133, 0.3);
+}

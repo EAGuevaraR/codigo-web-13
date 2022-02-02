@@ -1,0 +1,33 @@
+/* "*" asterisco es igual a todo */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    }
+
+.contenedor p {
+    color: #f01;
+}
+.contenedor-2 a img {
+    border: 2px solid rgb(28, 21, 124);
+    }
+
+.menú-navegacion {
+    margin: 20px;
+}
+
+ul > li {
+    border: 2px solid rgb(182, 207, 39);
+}
+
+input [type="email"] {
+    background-color: brown;
+}
+
+input [type="password"] {
+    color:burlywood
+}
+

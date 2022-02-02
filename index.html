@@ -24,113 +24,83 @@
     />
 
     <title>Codigo Front 13</title>
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-<!--Esta etiqueta nos permite escribir CSS en HTML-->
-  
+  <!--Esta etiqueta nos permite escribir CSS en HTML-->
+
   <body>
     <div class="contenedor-principal">
       <h1>Mi portafolio</h1>
 
-      <img src="./imagenes/DSC_1731.jpg" alt="" width="120" lenght="120" class="foto-propia"/>
-       
-    <p class="presentacion">
-      Hola mi nombre es <b>Ernesto Guevara</b>, tengo 34 años, soy
-      <strong>Ingeniero Industrial</strong>. Trabajo en seguros de ingeniería, y estoy aprendiendo
-      a programar en HTML, CSS y JS
-    </p>
+      <img
+        src="./imagenes/DSC_1731.jpg"
+        alt=""
+        width="120"
+        lenght="120"
+        class="foto-propia"
+      />
+
+      <p class="presentacion">
+        Hola mi nombre es <b>Ernesto Guevara</b>, tengo 34 años, soy
+        <strong>Ingeniero Industrial</strong>. Trabajo en seguros de ingeniería,
+        y estoy aprendiendo a programar en HTML, CSS y JS
+      </p>
+      <img
+        class="imgprog"
+        src="https://www.itmastersmag.com/wp-content/uploads/2021/01/shutterstock_1078387013-scaled.jpg"
+        width="700"
+        height="400"
+      />
     </div>
-  <br/>
-  <p><strong>Carpetas con hojas de trabajo por semana</strong></p>
-    <ul>
-      <li>
-        <h5>Semana 1</h5>
-        <a href="./semana1/" target="_blank">
-        <img
-          src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
-          alt="semana1"
-          width="50"
-          class="imagen-carpeta"
-        /> </a>
-      </li>
-      <li>
-        <h5>Semana 2</h5>
-        <a href="./semana 2/" target="_blank">
-        <img
-          src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
-          alt="semana1"
-          width="50"
-          class="imagen-carpeta"
-        /> </a>
-      </li>
-    </ul>
-
-    <div>
-      <h3>Temas semana 1</h3>
-      <a class="link-referencia" href="./semana1/inputs.html"
-        >Link para inputs</a
-      >
-      <a class="link-referencia" href="./semana1/form.html"
-        >Link a formularios</a
-      >
-      <a class="link-referencia" href="./semana1/tablas.html">Link a Tablas</a>
-    </div>
-    <br/>
     
-    <div>
-      <h3>Temas semana 2</h3>
-      <a class="link-referencia2" href="" target="_blank">Link a Intro a CSS</a>
-    </div>
-    <br/>
+    <section class="contenedor-clases">
+      <div>
+        <p><strong>Carpetas con hojas de trabajo por semana</strong></p>
+        <ul class="lista-semanas">
+          <li>
+            <h5>Semana 1</h5>
+            <a href="./semana1/" target="_blank">
+              <img
+                src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
+                alt="semana1"
+                width="50"
+                class="imagen-carpeta"
+              />
+            </a>
+          </li>
+          <li>
+            <h5>Semana 2</h5>
+            <a href="./semana 2/" target="_blank">
+              <img
+                src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
+                alt="semana1"
+                width="50"
+                class="imagen-carpeta"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Temas semana 1</h3>
+        <a class="link-referencia" href="./semana1/inputs.html"
+          >Link para inputs</a
+        >
+        <a class="link-referencia" href="./semana1/form.html"
+          >Link a formularios</a
+        >
+        <a class="link-referencia" href="./semana1/tablas.html"
+          >Link a Tablas</a
+        >
+      </div>
+      <hr class="divisor" />
+      <div>
+        <h3>Temas semana 2</h3>
+        <a class="link-referencia2" href="" target="_blank"
+          >Link a Intro a CSS</a
+        >
+      </div>
     
-    Documento
-    <!--citas-->
-    <blockquote>Esta etiqueta es para citas</blockquote>
-
-    <!--hipervinculos-->
-    <a href="https://www.youtube.com/" target="_blank"> Link a youtube </a>
-    <!--tarea crear 3 parrafos usando P,
-        crear 3 links a google, youtube y otra-->
-
-    <p>Vamos a comenzar a poner links</p>
-    <p>El primero es para youtube</p>
-    <p>El segundo es para google</p>
-    <p>El tercero es para wikipedia</p>
-
-    <p><a href="https://www.youtube.com/" target="_blank"> Link a youtube </a></p>
-    <p><a href="https://www.google.com/" target="_blank"> Link a Google</a></p>
-    <p><a href="https://www.wikipedia.com/" target="_blank">Link a Wikipedia</a></p>
-
-    <!--etiquetas multimedia-->
-    <!--puedo poner el link de una imagen-->
-    <img 
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUNl5ZXNFCEaU5-5mTsvpEQifT6_O1kPPsMA&usqp=CAU"
-        alt="Destructor imperial"
-        width="500"
-        height="300" 
-         />
-    <!--con imagen local de la pc-->
-    <!--al mismo tiempo ponemos la imagen como link-->
-    
-    <p><a href="https://www.youtube.com/" target="_blank">
-        <img src="./imagenes/descarga.png"/> </a></p>
-
-    <!--video-->
-    <video controls autoplay muted width="400" height="400">
-       <source src="./videos/video.mp4"   /> 
-    </video>
-
-    <!--audio-->
-    <audio controls autoplay muted>
-        <source src="./audios/audio (1).mp3"/>
-    </audio>
-
-    <!--iframe puede reproducir y ejecutar varios tipos de archivos-->
-    <iframe src="./pdfs/documento.pdf" width="400" height="400"></iframe>
-
-    <iframe src="./videos/video.mp4" width="380" height="380"></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3d6ird3P91s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    </section>
   </body>
 </html>
