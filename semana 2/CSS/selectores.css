@@ -24,7 +24,7 @@ ul > li {
 }
 
 input [type="email"] {
-    background-color: brown;
+    background-color: rgb(45, 15, 211);
 }
 
 input [type="password"] {
