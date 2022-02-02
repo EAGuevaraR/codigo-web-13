@@ -4,86 +4,88 @@
 }
 
 body {
-    font-family: Helvetica;
-  }
-  .foto-propia {
-    border-radius: 30%;
-    border: 2px solid #000;
-  }
-
-  .presentacion {
-    text-align: center;
-    font-family: lucida sans;
-  }
-
-  .imagen-carpeta:hover {
-    width: 55;
-  }
-
-  .link-referencia {
-    background-color: rgb(240, 199, 16);
-    color: #000;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 20px;
-  }
-  
-  .link-referencia:hover {
-    text-decoration: underline;
-    color: #fff;
-  }
-  .contenedor-principal {
-    text-align: center;
-    height: 100vh;
-  }
-
-  .link-referencia2 {
-    background-color: rgb(95, 197, 104);
-    color: #000;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 20px;
-  }
-  
-  .link-referencia2:hover {
-    text-decoration: underline;
-    color: #fff;
-  }
-
-  .imgprog {
-    border-radius: 12px;
-    margin-top: 40px;
-
-  }
-  .contenedor-clases {
-    height: 100vh;
-    background-color: #d8db2c;
-  }
-
-  .lista-semanas {
-    margin: 40px;
-    padding: 40px;
-    list-style: none; /*quita los puntos a la lista*/
-  }
-   
-  .lista-semanas li {
-    padding: 20px;
-  }
-  
-  h3 {
-    font-size: 2em;
-    margin: 20px;
-  }
-  h5 {
-    margin: 20px;
-  }
-
-  .divisor {
-    margin: 20px;
-    height: 4px;
-    background-color: black;
-    border: none;
-    border-radius: 5px;
-  }
+  font-family: Helvetica;
+}
+.banner1 {
+  background-color: lightsteelblue;
+  height: 30%;
+  width: 500px;
+}
+.contenedor-principal {
+  text-align: center;
+  height: 100vh;
+}
+.foto-propia {
+  border-radius: 30%;
+  border: 2px solid #000;
+}
+.presentacion {
+  text-align: center;
+  font-family: lucida sans;
+}
+.imgprog {
+  border-radius: 12px;
+  margin-top: 40px;
+}
+.contenedor-clases {
+  height: 32vh;
+  background-color: #249ef0;
+}
+.lista-semanas {
+  margin: 10px;
+  padding: 0;
+  list-style: none; /*quita los puntos a la lista*/
+}
+.lista-semanas li {
+  margin: 0;
+  padding: 10px;
+}
+h5 {
+  margin: 5px;
+}
+.imagen-carpeta:hover {
+  width: 55;
+}
+h3 {
+  font-size: 2em;
+  margin: 20px;
+}
+.temas-semana-1 {
+  height: 15vh;
+  background-color: #6ddd89;
+}
+.link-referencia {
+  background-color: rgb(240, 199, 16);
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+}
+.link-referencia:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.divisor {
+  margin: 0px;
+  height: 4px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.temas-semana-2 {
+  height: 15vh;
+  background-color: darkgrey;
+}
+.link-referencia2 {
+  background-color: rgb(95, 197, 104);
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+}
+.link-referencia2:hover {
+  text-decoration: underline;
+  color: #fff;
+}
