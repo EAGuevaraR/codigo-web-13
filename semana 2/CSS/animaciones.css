@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* si usamos tablas esto no es lo ideal*/
+  overflow-x: hidden;
+}
+section::-webkit-scrollbar {
+  display: none;
+}
+
+.texto-animado {
+  /* una animiación está compuesta por unmobre basico
+  y un tiempo */
+  animation-name: texto-volador;
+  animation-duration: 0s;
+  animation-iteration-count: 1;
+  border: solid;
+}
+
+@keyframes texto-volador {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    background-color: aqua;
+    border: none;
+  }
+  to {
+    margin-left: -100%;
+    background-color: red;
+    color: white;
+    border: none;
+  }
+}
+.image-animada {
+  animation-name: image-resize;
+  animation-duration: 0s;
+  animation-iteration-count: 1;
+}
+@keyframes image-resize {
+  from {
+    width: 20px;
+    height: 20px
+  }
+  to{
+    width: 50%;
+    height: 50%;
+  }
+}
+.box-uno {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  animation-name: box-animation;
+  animation-duration: 0s;
+}
+
+@keyframes box-animation {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: sandybrown;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+.ball-uno {
+  width: 200px;
+  height: 200px;
+  background-color: magenta;
+  border-radius: 50%;
+  animation-name: ball-animation;
+  animation-duration: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes ball-animation {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-135px);
+  }
+}
+.lineas {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  font-size: 24px;
+  white-space: nowrap;
+  border-right: 2px solid black;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+.texto-animado2{
+  animation: texto-animado-dos 5s steps(144) 1s normal both,
+  cursor 0.36s steps(50) infinite normal; 
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes texto-animado-dos{
+  from {
+    width: 0;
+  }
+ to {
+   width: 600px;
+ }
+}
+@keyframes cursor{
+  from {
+    border-right-color: blue;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

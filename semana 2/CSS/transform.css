@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  height: 100vh;
+}
+.form {
+  border: 2px solid grey;
+  padding: 50px;
+  border-radius: 8px;
+}
+.form h2 {
+  letter-spacing: 2px;
+  color: rgb(55, 97, 214);
+}
+.input-form {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: solid 2px grey;
+  border-radius: 6px;
+}
+/* linear tiene la misma velocidad cuando inicia y cuando termina
+   ease-in empieza elnto y acaba rapido */
+
+.btn-primary {
+  margin-top: 20px;
+  padding: 10px;
+  width: 110%;
+  background-color: rgb(55, 97, 214);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+}
+/* usaremos transform cuando queremos cambiar el estado de
+una propiedad */
+
+.btn-primary:hover {
+  background-color: yellow;
+}
+.text-help {
+  display: none;
+  max-width: 300px;
+  min-width: 300px;
+  transition: ease-in 1s;
+}
+.button-help {
+  border: none;
+  background-color: transparent;
+}
+.container-help {
+  transition: ease-in 1s;
+}
+.container-help:hover + .text-help {
+  display: block !important;
+  
+}
+
