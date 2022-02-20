@@ -65,13 +65,13 @@
       <div class="container-tema">
         <h4>Funciones extra</h4>
         <ul>
-          <li><a href="">toString<span class="parent">(</span><span class="parent">)</span></a></li>
-          <li><a href="">includes<span class="parent">(</span><span class="parent">)</span><a></li>
-          <li><a href="">split<span class="parent">(</span><span class="parent">)</span></a></li>
-          <li><a href="">+</a></li>
-          <li><a href="">toUpperCase<span class="parent">(</span><span class="parent">)</span></a></li>
-          <li><a href="">Math<span class="parent">(</span><span class="parent">)</span></a></li>
-          <li><a href="">Typeof<span class="parent">(</span><span class="parent">)</span></a></li>
+          <li><a href="#to-string">toString<span class="parent">(</span><span class="parent">)</span></a></li>
+          <li><a href="#includes">includes<span class="parent">(</span><span class="parent">)</span><a></li>
+          <li><a href="#split">split<span class="parent">(</span><span class="parent">)</span></a></li>
+          <li><a href="#parse-int">+</a></li>
+          <li><a href="#uppercase">toUpperCase<span class="parent">(</span><span class="parent">)</span></a></li>
+          <li><a href="#math">Math<span class="parent">(</span><span class="parent">)</span></a></li>
+          <li><a href="#typeof">Typeof<span class="parent">(</span><span class="parent">)</span></a></li>
         </ul>
       </div>
       <div class="container-tema">
@@ -84,19 +84,19 @@
       <div class="container-tema">
         <h4>Bucles</h4>
         <ul>
-          <li><a href="">For</a></li>
-          <li><a href="">While<a></li>
-          <li><a href="">Map<a></li>
-          <li><a href="">Foreach<a></li>
-          <li><a href="">Filter<a></li>
-          <li><a href="">Find<a></li>
-          <li><a href="">findindex<a></li>
+          <li><a href="#for">For</a></li>
+          <li><a href="#while">While<a></li>
+          <li><a href="#map">Map<a></li>
+          <li><a href="#for-each">Foreach<a></li>
+          <li><a href="#filter">Filter<a></li>
+          <li><a href="#find">Find<a></li>
+          <li><a href="#find-index">findindex<a></li>
         </ul>
       </div>
       <div class="container-tema">
         <h4>JS entre archivos</h4>
         <ul>
-          <li><a href="">JS entre archivos</a></li>
+          <li><a href="#script">JS entre archivos</a></li>
         </ul>
       </div>
     </div>
@@ -559,14 +559,14 @@
       </div>
       <div class="document-container">
         <div id="includes">
-          <h2>includes()</h2>
+          <h2>includes<span class="parent">(</span><span class="parent">)</span></h2>
           <p>
             Sirve para poder ver si existe un elemento en un array.
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">const</span>mascotas = ["perro", "gato", "conejo"]</p>
-            <p>mascotas.includes("gato")</p>
+            <p><span class="variable">const</span>mascotas = <span class="parent">[</span>"perro", "gato", "conejo"<span class="parent">]</span></p>
+            <p>mascotas.includes<span class="parent">(</span>"gato"<span class="parent">)</span></p>
           </div>
           <p>
             <span class="important">Importante</span>
@@ -576,15 +576,15 @@
       </div>
       <div class="document-container">
         <div id="split">
-          <h2>Split()</h2>
+          <h2>Split<span class="parent">(</span><span class="parent">)</span></h2>
           <p>
             Sirve para convertir una variable a un array, split recibe como parametro un simbolo, letra, etc y va a realizar la separación de elementos.
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p>"Hola-mundo-soy-un-programador".split("-")</p>
+            <p>"Hola-mundo-soy-un-programador".split<span class="parent">(</span>"-"<span class="parent">)</span></p>
             //
-            <p>["Hola", "mundo", "soy","un","programador"]</p>
+            <p><span class="parent">[</span>"Hola", "mundo", "soy","un","programador"<span class="parent">]</span></p>
           </div>
         </div>
       </div>   
@@ -597,7 +597,7 @@
           <p>Ejemplo</p>
           <div class="code-container">
             <p><span class="variable">const</span> edad = "18";</p>
-            <p><span class="console">console.log</span>(+edad)</p>            
+            <p><span class="console">console.log</span><span class="parent">(</span>+edad<span class="parent">)</span></p>            
           </div>
         </div>
       </div>
@@ -610,7 +610,7 @@
           <p>Ejemplo</p>
           <div class="code-container">
             <p><span class="variable">let</span> nombre = "Pepe Pérez";</p>
-            <p><span class="console">console.log</span>(nombre.toUpperCase())</p>
+            <p><span class="console">console.log</span><span class="parent">(</span>nombre.toUpperCase<span class="parent">(</span><span class="parent">)</span><span class="parent">)</span></p>
             <p>// PEPE PEREZ</p>
           </div>
         </div>
@@ -630,7 +630,7 @@
           </ul>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">Math.pow</span> (2,2);</p>
+            <p><span class="variable">Math.pow</span> <span class="parent">(</span>2,2<span class="parent">)</span>;</p>
             <p>Significa 2 elevado al cuadrado.</p>
           </div>
         </div>
@@ -644,7 +644,7 @@
           <p>Ejemplo</p>
           <div class="code-container">
             <p><span class="variable">const</span> computador = "Macbook Pro M1"</p>
-            <p><span class="console">console.log</span> (typeof computador)</p>
+            <p><span class="console">console.log</span> <span class="parent">(</span>typeof computador<span class="parent">)</span></p>
             // Nos dice que es un string
           </div>
         </div>
@@ -657,8 +657,8 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">for</span> (let i = 0; i < 10; i++) <span class="llave">{</span></p>
-            <p>&nbsp;&nbsp;&nbsp;<span class="console">console.log</span>(i)</p>
+            <p><span class="variable">for</span> <span class="parent">(</span>let i = 0; i < 10; i++<span class="parent">)</span> <span class="llave">{</span></p>
+            <p>&nbsp;&nbsp;&nbsp;<span class="console">console.log</span><span class="parent">(</span>i<span class="parent">)</span></p>
             <p><span class="llave">}</span></p>
           </div>
         </div>
@@ -671,11 +671,11 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">let</span> contador = 0;{</p>
-            <p>while (contador < 10) </p>
-            <p>&nbsp;&nbsp;&nbsp; console.log(contador);</p>
+            <p><span class="variable">let</span> contador = 0;<span class="llave">{</span></p>
+            <p>while <span class="parent">(</span>contador < 10<span class="parent">)</span> </p>
+            <p>&nbsp;&nbsp;&nbsp; <span class="console">console.log</span><span class="parent">(</span>contador<span class="parent">)</span>;</p>
             <p>&nbsp;&nbsp;&nbsp; contador++;</p>
-            <p>}</p>
+            <p><span class="llave">}</span></p>
           </div>
           <p>
             <span class="important">Importante</span> No se olviden de aumentar el contador porque si no, nuestras computadoras van a explotar.
@@ -690,8 +690,8 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">const</span> alumnos = ["pepe", "sutano","mengano"]{</p>
-            <p>alumnos.map((alumno,index) => console.log(index, alumno))</p>
+            <p><span class="variable">const</span> alumnos = <span class="parent">[</span>"pepe", "sutano","mengano"<span class="parent">]</span><span class="llave">{</span></p>
+            <p>alumnos.map<span class="parent">(</span><span class="parent">(</span>alumno,index<span class="parent">)</span> => <span class="console">console.log</span><span class="parent">(</span>index, alumno<span class="parent">)</span><span class="parent">)</span></p>
           </div>
           <p>
             <span class="important">Recomendación</span> 
@@ -710,9 +710,9 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">const</span> alumnos = ["pepe", "sutano","mengano"]{</p>
+            <p><span class="variable">const</span> alumnos = <span class="parent">[</span>"pepe", "sutano","mengano"<span class="parent">]</span><span class="llave">{</span></p>
             <p>
-              alumnos.foreach((alumno,index) => console.log(index, alumno))
+              alumnos.foreach<span class="parent">(</span><span class="parent">(</span>alumno,index<span class="parent">)</span> => <span class="console">console.log</span><span class="parent">(</span>index, alumno<span class="parent">)</span><span class="parent">)</span>
             </p>
           </div>
         </div>
@@ -725,11 +725,11 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">const</span> alumnos = ["pepe", "sutano","mengano"]{</p>
+            <p><span class="variable">const</span> alumnos = <span class="parent">[</span>"pepe", "sutano","mengano"<span class="parent">]</span><span class="llave">{</span></p>
             <p>
-              const alumnoFilter = alumnos.filter((alumno,index) => alumno === "Pepe"))
+              <span class="variable">const</span> alumnoFilter = alumnos.filter<span class="parent">(</span><span class="parent">(</span>alumno,index<span class="parent">)</span> => alumno === "Pepe"<span class="parent">)</span><span class="parent">)</span>
             </p>
-            <p>//Va a retornar ["Pepe"]</p>
+            <p>//Va a retornar <span class="parent">[</span>"Pepe"<span class="parent">]</span></p>
           </div>
         </div>
       </div>
@@ -741,9 +741,9 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">const</span> alumnos = ["pepe", "sutano","mengano"]{</p>
+            <p><span class="variable">const</span> alumnos = <span class="parent">[</span>"pepe", "sutano","mengano"<span class="parent">]</span><span class="llave">{</span></p>
             <p>
-              const alumnoFilter = alumnos.find((alumno,index) => alumno === "Pepe"))
+              <span class="variable">const</span> alumnoFind = alumnos.find<span class="parent">(</span><span class="parent">(</span>alumno,index<span class="parent">)</span> => alumno === "Pepe"<span class="parent">)</span><span class="parent">)</span>
             </p>
             <p>//Va a retornar con Pepe pero como string, porque sólo será un dato.</p>
           </div>
@@ -757,9 +757,9 @@
           </p>
           <p>Ejemplo</p>
           <div class="code-container">
-            <p><span class="variable">const</span> alumnos = ["pepe", "sutano","mengano"]{</p>
+            <p><span class="variable">const</span> alumnos = <span class="parent">[</span>"pepe", "sutano","mengano"<span class="parent">]</span><span class="llave">{</span></p>
             <p>
-              const alumnoFindIndex = alumnos.findIndex((alumno,index) => alumno === "Pepe"))
+              <span class="variable">const</span> alumnoFindIndex = alumnos.findIndex<span class="parent">(</span><span class="parent">(</span>alumno,index<span class="parent">)</span> => alumno === "Pepe"<span class="parent">)</span><span class="parent">)</span>
             </p>
             <p>//Va a retornar 0 porque es el índice que tiene Pepe.</p>
           </div>
