@@ -162,16 +162,44 @@ body{
   align-items: center;
 }
 .item7 *{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .container-testimonials{
   display: flex;
   align-items: center;
   text-align: center;
+  width: 70%;
 }
+.container-testimonials div{
+  margin-left: 20px;
+  margin-right: 20px;
 
-
-
+}
+.testimonials-titulo{
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: rgb(165, 164, 164);
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+.testimonial-img{
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.item p{
+  color: hsl(212, 27%, 19%);
+  margin-bottom: 60px;
+}
+.item h2{
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 900;
+}
+.item span{
+  color: rgb(165, 164, 164);
+}
 .item8{
   grid-area: milk;
   background-image: url("../dia2/images/image-gallery-milkbottles.jpg");
@@ -192,7 +220,36 @@ body{
   background-image: url("../dia2/images/image-gallery-sugarcubes.jpg");
 }
 
+.footer{
+  height: 35vh;
+  background-color: hsl(168, 37%, 45%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer div{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Barlow', sans-serif;
+}
+.sunny{
+  font-weight: bold;
+  font-size: 30px;
+  color: #24544c;
+  letter-spacing: 1px;
+}
+.footer-span{ 
+  width: 300px;
+  color: #24544c;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
 
-
+.icons img{
+  padding: 10px;  
+}
 
 
