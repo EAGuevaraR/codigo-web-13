@@ -88,16 +88,13 @@
 // precios()
 
 
-// Escribe un programa que pida una frase y escriba cuántas
-// veces aparecen cada una de las vocales
 
 
-const contarVocales = (frase) =>{
-  const fraseMayus = frase.toUppercase ();
-  const Split = fraseMayus.split ();
-  console.log(split)  
+const num1 = prompt("primer numero");
+const num2 = prompt("segundo numero");
+const num3 = prompt("tercer numero");
+
+const promedio = () => {
+  if ()
+
 }
-
-
-
-contarVocales ("No quiero nada")
